@@ -1,0 +1,13 @@
+<script>
+  let aresta1 = parseFloat(prompt("Digite o tamanho da primeira aresta: "));
+  let aresta2 = parseFloat(prompt("Digite o tamanho da segunda aresta: "));
+  let aresta3 = parseFloat(prompt("Digite o tamanho da terceira aresta: "));
+
+  if (aresta1 == aresta2 && aresta1 == aresta3) {
+    document.write("<strong>Triângulo Equilátero</strong>");
+  } else if (aresta1 == aresta2 || aresta1 == aresta3 || aresta2 == aresta3) {
+    document.write("<strong>Isósceles</strong>");
+  } else {
+    document.write("<strong>Escaleno</strong>");
+  }
+</script>

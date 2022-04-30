@@ -1,0 +1,11 @@
+<script>
+  let idade = parseFloat(prompt("informe sua idade: "));
+  let especial = prompt("Escreva 'sim' se for deficiente físico ou gestante: ");
+  let sexo = prompt("informe seu sexo: ");
+
+  if (idade >= 60 || especial == "sim") {
+    document.write("<strong>Fila Preferencial</strong>");
+  } else {
+    document.write("<strong>Sem Fila Preferencial</strong>");
+  }
+</script>
