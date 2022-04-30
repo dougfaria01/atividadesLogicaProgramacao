@@ -1,0 +1,28 @@
+<script>
+    function verificaNumeroPrimo (num1){
+        for (let i1 = 2; i1 < num1; i1++)
+        if ((num1 % 2) == 0){
+            return false
+        } else {
+            return true
+        }
+    }
+    if (verificaNumeroPrimo){
+        console.log("É número primo");
+    } else {
+        console.log("Não é número primo");
+    }
+
+    function imprimeNumerosPrimosAteN (num2){
+        for (let i2 = 2; i2 <= num2; i2++) {
+            if (verificaNumeroPrimo(num2)){
+                 numerosPrimos.push(i2);
+                //  console.log(numerosPrimos);
+            }
+        }
+    }
+
+    let numerosPrimos = [];
+    // console.log(verificaNumeroPrimo(3));
+    console.log(imprimeNumerosPrimosAteN(13));
+</script>
