@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: normal 15pt Arial;
+  height: 100vh;
+  width: 100vw; 
+}
+
+/* header {
+  color: black;
+  text-align: center;
+} */
+
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+section div.container{
+  margin: 10px;
+  background: aqua;
+}
+
+footer {
+  color: black;
+  text-align: center;
+  font-style: italic;
+}
